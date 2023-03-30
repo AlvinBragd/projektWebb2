@@ -1,2 +1,5 @@
 2023-03-24 
 Idag har jag skapat de grundläggande filerna till projektet. Sedan påbörjade jag dokumentationen i projekplanen. 
+
+2023-03-30
+Idag har jag skrivt klart projektplanen.

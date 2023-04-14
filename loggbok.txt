@@ -6,3 +6,6 @@ Idag har jag skrivt klart projektplanen.
 
 2023-03-31
 Idag har jag påbörjat wireframes till webbsidan
+
+2023-04-14
+Idag har jag gjort klart den grafiska manualen och ska nästa gång påbörja kodningen

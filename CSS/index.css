@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-areas: 
+    'header header'
+    'news ad'
+    'benefits benefits'
+    'houses houses'
+    'footer footer'
+                            ;
+    grid-template-columns: 1fr, 2fr;
+    
+}
+
+
+.top-section{
+    background-image: url(..//bilder/staden.jpg);
+}

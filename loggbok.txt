@@ -9,3 +9,6 @@ Idag har jag påbörjat wireframes till webbsidan
 
 2023-04-14
 Idag har jag gjort klart den grafiska manualen och ska nästa gång påbörja kodningen
+
+2023-04-18
+Idag har jag lämnat in grafiska manualen och påbörjat hmtl koden på första sidan

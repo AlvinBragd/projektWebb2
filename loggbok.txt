@@ -5,10 +5,13 @@ Idag har jag skapat de grundläggande filerna till projektet. Sedan påbörjade 
 Idag har jag skrivt klart projektplanen.
 
 2023-03-31
-Idag har jag påbörjat wireframes till webbsidan
+Idag har jag påbörjat wireframes till webbsidan.
 
 2023-04-14
-Idag har jag gjort klart den grafiska manualen och ska nästa gång påbörja kodningen
+Idag har jag gjort klart den grafiska manualen och ska nästa gång påbörja kodningen.
 
 2023-04-18
-Idag har jag lämnat in grafiska manualen och påbörjat hmtl koden på första sidan
+Idag har jag lämnat in grafiska manualen och påbörjat hmtl koden på första sidan.
+
+2023-04-20
+Idag har jag arbeta med koden för förstasidan.

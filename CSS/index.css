@@ -1,8 +1,14 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+
 .container{
     display: grid;
     grid-template-areas: 
     'header header'
-    'news ad'
+    'info info'
     'benefits benefits'
     'houses houses'
     'footer footer'
@@ -11,7 +17,56 @@
     
 }
 
+section, aside, footer{
+    background-color: aqua;
+}
+
 
 .top-section{
-    background-image: url(..//bilder/staden.jpg);
+    /* SE TILL ATT ÄNDRA TILL PICTURE I FRAMTIDEN */
+    grid-area: header;
+}
+
+
+.information-section{
+    grid-area: info;
+    display: grid;
+    grid-template-areas: 'news ad';
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+
+.advertisement{
+    grid-area:ad;
+}
+
+.extension{
+    grid-area: news;
+}
+
+.benefits-section{
+    grid-area: benefits;
+    background-color: blue;
+}
+
+.availableHouses{
+    grid-area: houses;
+    background-color: yellow;
+    display: flex;
+  flex-direction: column;
+}
+
+.houseCards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: green;
+}
+
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-evenly;
 }

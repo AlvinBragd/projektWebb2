@@ -1,34 +1,35 @@
-body{
-margin: 0;
-padding: 0;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-
-.container{
+.container {
     display: grid;
-    grid-template-areas: 
-    'header header'
-    'info info'
-    'benefits benefits'
-    'houses houses'
-    'footer footer'
-                            ;
+    grid-template-areas: 'header header' 'info info' 'benefits benefits' 'houses houses' 'footer footer';
     grid-template-columns: 1fr, 2fr;
-    
 }
 
-section, aside, footer{
+section,
+aside,
+footer {
     background-color: aqua;
 }
 
-
-.top-section{
-    /* SE TILL ATT ÄNDRA TILL PICTURE I FRAMTIDEN */
+.top-section {
     grid-area: header;
+    display: flex;
+    align-items: center;
 }
 
+.title {
+    margin: 1em;
+}
 
-.information-section{
+.navbar>* {
+    margin: 1em 0 1em 1em
+}
+
+.information-section {
     grid-area: info;
     display: grid;
     grid-template-areas: 'news ad';
@@ -36,36 +37,48 @@ section, aside, footer{
     grid-template-rows: 1fr;
 }
 
-.advertisement{
-    grid-area:ad;
+.advertisement {
+    grid-area: ad;
+    background-image: url(..//bilder/staden.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.extension{
+.extension {
     grid-area: news;
 }
 
-.benefits-section{
+.benefits-section {
     grid-area: benefits;
     background-color: blue;
 }
 
-.availableHouses{
-    grid-area: houses;
-    background-color: yellow;
-    display: flex;
-  flex-direction: column;
-}
-
-.houseCards{
+.benefits-buttons {
     display: flex;
     justify-content: space-evenly;
 }
 
-.card{
+.availableHouses {
+    grid-area: houses;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+.houseCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
     background-color: green;
 }
 
-footer{
+footer {
     grid-area: footer;
     display: flex;
     justify-content: space-evenly;

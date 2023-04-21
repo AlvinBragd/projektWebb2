@@ -15,3 +15,6 @@ Idag har jag lämnat in grafiska manualen och påbörjat hmtl koden på första 
 
 2023-04-20
 Idag har jag arbeta med koden för förstasidan.
+
+2023-04-21 
+Idag har jag arbetat ytterliggare med koden för första sidan. Lagg till lite knappar, bilder osv.

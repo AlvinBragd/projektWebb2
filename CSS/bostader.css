@@ -1,0 +1,44 @@
+body {
+    margin: 0 10em;
+    padding: 0;
+    background-color: #F0E9D2;
+
+}
+
+*{
+    font-family: 'Bahnschrift';
+    text-decoration: none;
+}
+
+div{
+    padding: 1em;
+}
+.container {
+    display: grid;
+    grid-template-areas:;
+    grid-gap: 1em;
+    padding: 0;
+}
+
+.container > *{
+    box-sizing: border-box;
+}
+
+
+.top-section {
+    grid-area:;
+    display: flex;
+    align-items: center;
+    background-color: #181D31;
+    color: #F0E9D2;
+}
+
+.title {
+    margin: 1em;
+}
+
+.navbar>* {
+    margin: 1em 0 1em 1em;
+    color: #F0E9D2;
+    text-decoration: none;
+}

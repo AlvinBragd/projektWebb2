@@ -2,17 +2,23 @@ body {
     margin: 0 10em;
     padding: 0;
     background-color: #F0E9D2;
+
 }
 
 *{
     font-family: 'Bahnschrift';
+    text-decoration: none;
 }
 
+div{
+    padding: 1em;
+}
 .container {
     display: grid;
     grid-template-areas: 'header header' 'info info' 'benefits benefits' 'houses houses' 'footer footer';
     grid-template-columns: 1fr;
     grid-gap: 1em;
+    padding: 0;
 }
 
 .container > *{
@@ -48,6 +54,15 @@ body {
     color: #F0E9D2;
 }
 
+.counter h3{
+    color: red;
+    font-size: 2.5em;
+}
+
+.news h3{
+    border-bottom: #F0E9D2 solid 1px;
+}
+
 .advertisement {
     grid-area: ad;
     background-image: url(..//bilder/staden.jpg);
@@ -68,8 +83,10 @@ body {
 .benefits-section {
     grid-area: benefits;
     background-color: #678983;
-    
+}
 
+.benefits-section h3{
+    text-align: center;
 }
 
 .benefits-buttons {
@@ -79,13 +96,25 @@ body {
 
 .popups > *{
     display: none;
+    padding: 0;
 }
 
+.popup h2,.popup p{
+    padding: 5px;
+}
+
+.exit{
+    margin: 5px;
+}
 .availableHouses {
     grid-area: houses;
     background-color: #E6DDC4;
     display: flex;
     flex-direction: column;
+}
+
+.availableHouses h2{
+    text-align: center;
 }
 
 .houseCards {
@@ -108,8 +137,8 @@ footer {
     background-color: #E6DDC4;
 }
 
-/*Importerad CSS för knappar*/
-.button-54 {
+/*Importerad CSS för knappar som är lite modifierad av mig själv*/
+.button-54, .link, .housebutton {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
@@ -124,6 +153,7 @@ footer {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+    background-color: whitesmoke;
   }
   
   .button-54:active {

@@ -4,10 +4,14 @@ body {
     background-color: #F0E9D2;
 }
 
+*{
+    font-family: 'Bahnschrift';
+}
+
 .container {
     display: grid;
     grid-template-areas: 'header header' 'info info' 'benefits benefits' 'houses houses' 'footer footer';
-    grid-template-columns: 1fr, 2fr;
+    grid-template-columns: 1fr;
     grid-gap: 1em;
 }
 
@@ -64,11 +68,17 @@ body {
 .benefits-section {
     grid-area: benefits;
     background-color: #678983;
+    
+
 }
 
 .benefits-buttons {
     display: flex;
     justify-content: space-evenly;
+}
+
+.popups > *{
+    display: none;
 }
 
 .availableHouses {
@@ -97,3 +107,33 @@ footer {
     justify-content: space-evenly;
     background-color: #E6DDC4;
 }
+
+/*Importerad CSS för knappar*/
+.button-54 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-54:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-54 {
+      padding: 0.25em 0.75em;
+    }
+  }

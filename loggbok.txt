@@ -18,3 +18,9 @@ Idag har jag arbeta med koden för förstasidan.
 
 2023-04-21 
 Idag har jag arbetat ytterliggare med koden för första sidan. Lagg till lite knappar, bilder osv.
+
+2023-04-21
+Ikväll jobbade jag lite med färger, bilder m.m
+
+2023-04-22
+Börjat koda på popups när man trycker på knappar. Knapparnas CSS är importerad.

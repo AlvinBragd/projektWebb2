@@ -14,7 +14,7 @@
 <body>
 
 
-    <div class="container">
+    <div class="container" id="container">
 
         <div class="top-section">
             <header class="title">
@@ -35,17 +35,21 @@
         </div>
 
         <div class="information-section">
+
             <aside class="extension">
+
                 <div class="counter">
                     <h2>Lediga bostäder kvar</h2>
                     <h3 id="counterItem"></h3>
                 </div>
+
                 <div class="news">
                     <h3>Nyheter</h3>
                     <p><b>Våren </b>2024 öppnar STUDENTBO 100 nya bostäder i Stockholm City. Förboka din bostad redan nu!</p>
 
                     <p><b>Nu</b> kan du signera hyreskontrakt med Bank-ID</p>
                 </div>
+
             </aside>
 
             <section class="advertisement">
@@ -54,7 +58,9 @@
                 </h2>
                 <p>Stockholms bästa studentbostäder</p>
             </section>
+
         </div>
+
 
         <div class="benefits-section">
             <h3>
@@ -62,26 +68,60 @@
             </h3>
 
             <div class="benefits-buttons">
-                <button>
-            <h3>
-                Gym
-            </h3>
-        </button>
 
-                <button>
-           <h3
-           >Cykelparkering inomhus
-        </h3>
-        </button>
+                <button id="gymButton" class="button-54" role="button">Gym</button>
+                <button id="bikeButton" class="button-54" role="button">Cykelparkering inomhus</button>
+                <button id="washButton" class="button-54" role="button">Tvättstuga</button>
 
-                <button>
-                    <h3>
-            Tvättstuga
-                    </h3>
-        </button>
+            </div>
+        </div>
+
+        <div class="popups" id="popupFoundation">
+
+            <div id="gymPopup">
+                <button class="exit"></button>
+                <h2>
+                    Gym
+                </h2>
+
+                <p>Att bo med STUDENTBO innebär gratis tillgång till vårt gym under hela dygnet</p>
+
+                <picture>
+                    <source>
+                    <img>
+                </picture>
             </div>
 
-        </div>
+            <div id="bikePopup">
+                <button class="exit"></button>
+                <h2>
+                    Cykelparkering inomhus
+                </h2>
+
+                <p>...</p>
+
+                <picture>
+                    <source>
+                    <img>
+                </picture>
+            </div>
+            
+            <div id="washPopup">
+                <button class="exit"></button>
+                <h2>
+                    Tvättstuga
+                </h2>
+                
+                <p>...</p>
+                
+                <picture>
+                    <source>
+                    <img>
+                </picture>
+            </div>
+    </div>
+
+        
 
 
         <div class="availableHouses">
@@ -153,7 +193,14 @@
 
 
 
+
+
+
         </footer>
+
+     
+       
+
 
         <script src="..//Javascript/index.js"></script>
 </body>
@@ -174,3 +221,7 @@
 
 
 </html>
+
+
+
+

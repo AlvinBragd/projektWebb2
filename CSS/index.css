@@ -97,6 +97,7 @@ div{
 .popups > *{
     display: none;
     padding: 0;
+    z-index: 2;
 }
 
 .popup h2,.popup p{

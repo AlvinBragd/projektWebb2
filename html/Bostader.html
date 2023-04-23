@@ -23,16 +23,181 @@
             </header>
 
             <nav class="navbar">
-                <a href="#">Hem</a>
+                <a href="Index.html">Hem</a>
 
-                <a href="#">Lediga bostäder</a>
+                <a href="Bostader.html">Lediga bostäder</a>
 
-                <a href="#">Om oss</a>
+                <a href="foretagsInformation.html">Om oss</a>
             </nav>
         </div>
 
+        <div class="information-section">
+            <h2>
+                STUDENTBO hyr ut lägenheter i ett flertal områden
+            </h2>
+
+            <ul>
+                <li>
+                    <h3>
+                    Södermalm
+                    </h3>
+                </li>
+                <li>
+                    <h3>
+                    Farsta
+                    </h3>
+                </li>
+            </ul>
+        </div>
+
+        <div class="filters">
+            <h2>
+                Just nu har vi <span id="counterItem"></span> lediga bostäder.
+            </h2>
+
+            <div class="filterOptions">
+
+                <div class="Areas">
+                    <h3>Områden:</h3>
+                    <button class="button-54" id="centrumArea">
+                        Centrum
+                    </button>
+                    <button class="button-54" id="allAreas">
+                        Alla
+                    </button>
+                </div>
+
+                <div class="Levels">
+                    <h3>Våningar:</h3>
+                    <button class="button-54" id="noGroundLevel">
+                        Ej bottenvåning
+                    </button>
+                    <button class="button-54" id="allLevels">
+                        Alla
+                    </button>
+                </div>
+              
+            </div>
+        </div>
+
+        <div class="availableHouses">
+
+            <h2>
+                Just nu kan du hyra 3st av våra lediga bostäder
+            </h2>
+
+            <section class="house" id="house1">
+
+                <div class="textbox">
+                <h3>
+                    Åsögatan 15
+                </h3>
+
+                <p>
+                    Denna fina lägenhet har från dess takterass fin utsikt över Södermalm.
+                </p>
+            </div>
+
+                <ul>
+                    <li>
+                        Hyra: 7600kr
+                    </li>
+
+                    <li>
+                        Yta: 32m<sup>2</sup>
+                    </li>
+                </ul>
+
+                <picture>
+                    <source>
+                    <img src="../bilder/Hus 1.jpg" alt="Hus" style="width:100%; height:100%;">
+                </picture>
+
+            </section>
+
+            <section class="house" id="house2">
+                <div class="textbox">              
+                <h3>
+                    Metargatan 25
+                </h3>
+
+                <p>
+                    Med snabb tillgång till tunnelbanan är denna lägenhet perfekt för den som snabbt vill ta sig runt i staden.
+                </p>
+
+                </div>
+
+                <ul>
+                    <li>
+                        Hyra: 5600kr
+                    </li>
+
+                    <li>
+                        Yta: 26m<sup>2</sup>
+                    </li>
+                </ul>
+
+                <picture>
+                    <source>
+                    <img src="..//bilder/Hus2.jpeg" alt="Hus" style="width: 100%; height: 100%;">
+                </picture>
+
+            </section>
+
+            <section class="house" id="house3">
+                <div class="textbox">
+                <h3>
+                    Lingvägen 36
+                </h3>
+
+                <p>
+                    Denna lägenhet ligger på bottenvåningen och utanför centrum. Perfekt för en snåljåp.
+                </p>
+                </div>
+                <ul>
+                    <li>
+                        Hyra:2000kr
+                    </li>
+
+                    <li>
+                        Yta:18m<sup>2</sup>
+                    </li>
+                </ul>
+
+                <picture>
+                    <source>
+                    <img src="..//bilder/hus 3.jpg" alt="Hus" style="width: 100%; height: 100%;">
+                </picture>
+
+            </section>
+
+        </div>
+
+        <footer class="bottom-section">
+
+            <div>
+                <a href="foretagsInformation.html" class="link">Om STUDENTBO</a>
+                <p>Telefonnummer: 0765683260</p>
+            </div>
+
+            <div>
+                <p>Nå oss på dessa kanaler</p>
+                <a href="#" class="link">Instagram</a>
+                <a href="#" class="link">Facebook</a>
+                <a href="#" class="link">LinkedIn</a>
+            </div>
+
+            <div>
+                <p>info.Studentbo@gmail.com</p>
+                <p>STUDENTBO</p>
+                <p>Farsta, Stockholm</p>
+                
+            </div>
+        </footer>
+
     </div>
 
+    <script src="..//Javascript/bostader.js"></script>
 </body>
 
 </html>

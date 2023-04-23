@@ -1,6 +1,6 @@
 let counter = document.getElementById("counterItem");
 
-let number =Math.floor( Math.random() * 100); 
+let number =Math.floor( Math.random() * 100 +3); 
 
 counter.innerHTML = number.toString();
 

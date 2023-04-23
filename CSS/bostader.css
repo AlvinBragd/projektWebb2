@@ -74,26 +74,21 @@ div{
 }
 
 .house{
-    display: grid;
-    grid-template-areas: 
-    'text picture'
-    'price picture';
+    
     background-color: #678983;
     margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
    
 }
 
     .textbox{
-        grid-area: text;
-    }
-
-    .house ul{
-        grid-area: price;
+       display:flex;
+       flex-direction: column;
     }
 
     .house picture{
-        grid-area: picture;
-       
+       width: 35%;
     }
 
 footer {

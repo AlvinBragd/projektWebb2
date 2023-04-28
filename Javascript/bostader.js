@@ -1,6 +1,6 @@
 let counter = document.getElementById("counterItem");
 
-let number =Math.floor(Math.random() * 100 +3); 
+let number = Math.floor(Math.random() * 100 + 3);
 
 counter.innerHTML = number.toString();
 
@@ -12,18 +12,18 @@ let allLevelButton = document.getElementById("allLevels");
 
 let groundLevelHouse = document.getElementById("house3")
 
-centrumAreaButton.addEventListener("click", function(){
-    groundLevelHouse.style.display="none";
+centrumAreaButton.addEventListener("click", function() {
+    groundLevelHouse.style.display = "none";
 })
 
-allAreaButton.addEventListener("click", function(){
-    groundLevelHouse.style.display="grid";
+allAreaButton.addEventListener("click", function() {
+    groundLevelHouse.style.display = "flex";
 })
 
-noGroundLevelButton.addEventListener("click",function(){
-    groundLevelHouse.style.display="none";
+noGroundLevelButton.addEventListener("click", function() {
+    groundLevelHouse.style.display = "none";
 })
 
-allLevelButton.addEventListener("click",function(){
-    groundLevelHouse.style.display="grid";
+allLevelButton.addEventListener("click", function() {
+    groundLevelHouse.style.display = "flex";
 })

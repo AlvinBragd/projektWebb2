@@ -2,17 +2,17 @@ body {
     margin: 0 10em;
     padding: 0;
     background-color: #F0E9D2;
-
 }
 
-*{
+* {
     font-family: 'Bahnschrift';
     text-decoration: none;
 }
 
-div{
+div {
     padding: 1em;
 }
+
 .container {
     display: grid;
     grid-template-areas: 'header header' 'info info' 'benefits benefits' 'houses houses' 'footer footer';
@@ -22,10 +22,9 @@ div{
     width: 80vw;
 }
 
-.container > *{
+.container>* {
     box-sizing: border-box;
 }
-
 
 .top-section {
     grid-area: header;
@@ -45,6 +44,50 @@ div{
     text-decoration: none;
 }
 
+.content-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkList {
+    background-color: #181D31;
+    height: 30%;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 1em;
+}
+
+.list li {
+    padding: 1em;
+}
+
+.linkList li a {
+    color: #F0E9D2;
+}
+
+.textBox {
+    background-color: #E6DDC4;
+    margin: 0 1em;
+}
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.factBox {
+    background-color: #678983;
+}
+
+.licenses {
+    background-color: #678983;
+    display: flex;
+    flex-direction: column;
+}
 
 footer {
     grid-area: footer;
@@ -53,8 +96,12 @@ footer {
     background-color: #E6DDC4;
 }
 
+
 /*Importerad CSS för knappar som är lite modifierad av mig själv*/
-.button-54, .link, .housebutton {
+
+.button-54,
+.link,
+.housebutton {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
@@ -70,16 +117,16 @@ footer {
     -webkit-user-select: none;
     touch-action: manipulation;
     background-color: whitesmoke;
-  }
-  
-  .button-54:active {
+}
+
+.button-54:active {
     box-shadow: 0px 0px 0px 0px;
     top: 5px;
     left: 5px;
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .button-54 {
-      padding: 0.25em 0.75em;
+        padding: 0.25em 0.75em;
     }
-  }
+}

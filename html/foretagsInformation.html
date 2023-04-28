@@ -6,62 +6,222 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Om företaget</title>
-    <link rel="stylesheet" href="..//CSS/foretaget.css"
+    <link rel="stylesheet" href="..//CSS/foretaget.css">
+    <script src="https://d3js.org/d3.v4.js">
+    </script>
 </head>
 
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <div class="top-section">
-        <header class="title">
+        <div class="top-section">
+            <header class="title">
 
-            <h1>
-                STUDENTBO
-            </h1>
+                <h1>
+                    STUDENTBO
+                </h1>
 
-        </header>
+            </header>
 
-        <nav class="navbar">
-            <a href="Index.html">Hem</a>
+            <nav class="navbar">
+                <a href="Index.html">Hem</a>
 
-            <a href="Bostader.html">Lediga bostäder</a>
+                <a href="Bostader.html">Lediga bostäder</a>
 
-            <a href="foretagsInformation.html">Om oss</a>
-        </nav>
-    </div>
-
-
-
-
-
-
-    <footer class="bottom-section">
-
-        <div>
-            <a href="foretagsInformation.html" class="link">Om STUDENTBO</a>
-            <p>Telefonnummer: 0765683260</p>
+                <a href="foretagsInformation.html">Om oss</a>
+            </nav>
         </div>
 
-        <div>
-            <p>Nå oss på dessa kanaler</p>
-            <a href="#" class="link">Instagram</a>
-            <a href="#" class="link">Facebook</a>
-            <a href="#" class="link">LinkedIn</a>
+        <div class="content-section">
+
+            <div class="linkList">
+                <ul class="list">
+                    <li><a href="#">Organisation</a></li>
+                    <li><a href="#">Årsredovisning</a></li>
+                    <li><a href="#">Pressrum</a></li>
+                    <li><a href="#">Dataskydd(GDPR)</a></li>
+                    <li><a href="#">Hållbarhet</a></li>
+                    <li><a href="#">Jobba hos oss</a></li>
+                </ul>
+
+            </div>
+
+            <div class="textBox">
+                <h2>
+                    Studenternas bostadsföretag sedan 2012
+                </h2>
+
+                <p>
+                    STUDENTBO grundades av studenter som ville göra något åt bostadsbristen i Stockholm. Idag är vi störst på studentbostäder i Sverige och vi fortsätter att bygga fler bostäder – för vi vill ge plats för ännu fler studenter!
+                </p>
+
+                <p>
+                    Vi ser våra bostäder som platser där studenter ska trivas, utvecklas och stärka sina relationer med andra studenter. Därför vill vi anpassa alla våra bostäder efter studenternas förutsättningar och behov. Dessutom ligger våra bostadsområden alltid nära
+                    kollektivtrafik eller campusområden.
+                </p>
+
+                <p>
+                    Ungefär häften av våra hem utgörs av studentrum. Resterande är studentettor och studentlägenheter. Totalt har vi drygt 8 000 rum och lägenheter i Stockholm, Solna, Nacka och Huddinge.
+                </p>
+
+                <h3>
+                    Av, för och med studenter
+                </h3>
+
+                <p>
+                    Vi är en stiftelse som grundades 2012 av Bragd Inc. Då, precis som idag, är kärnan i vår verksamhet studenternas behov och engagemang. Allt vi har lyckats med är tack vare generationer av studenter som utvecklar och driver oss framåt. Vår styrelse utgörs
+                    därför av ledamöter och suppleanter som väljs av Bragd Inc.
+                </p>
+
+                <h3>
+                    Vår vision är att skapa framtid
+                </h3>
+
+                <p>
+                    Vår vision; ”Med attraktiva hem för studenter skapar vi framtid” handlar om vi som studentbostadsföretag vill bidra till att våra studenter, under sin tid hos oss, ska må bra och känna sig trygga och att de har utrymme för umgänge med grannar och vänner
+                    i en miljö som bidrar till att de kan prestera i sina studier. I vår vision ser vi också framför oss campusområden som sjuder av liv och gemenskap, där alla samspelar med varandra och tillsammans skapar välmående miljöer. Miljöer som
+                    välkomnar mångfald och inspirerar till innovation och nytänkande – och därmed skapar framtid.
+                </p>
+
+            </div>
+
+            <div class="facts">
+                <div class="factBox">
+                    <h2>
+                        Företagsfakta
+                    </h2>
+
+                    <ul>
+                        <li>Bostäder: 6784</li>
+                        <li>145 678 kvadratmeter bostadsyta</li>
+                        <li>7,5 miljarder kronor taxeringsvärde i fastigheter</li>
+                        <li>482 miljoner kronor i omsättning</li>
+                        <li>68 medarbetare</li>
+                    </ul>
+                    <p>*Siffror är tagna från 2023-04-28</p>
+
+                    <h3>Aktiegraf STUDENTBO</h3>
+                    <div id="my_dataviz"></div>
+                </div>
+
+                <div class="licenses">
+                    <picture>
+                        <source>
+                        <img src="..//bilder/samarbete1.jpg">
+                    </picture>
+                    <picture>
+                        <source>
+                        <img src="..//bilder/samarbete2.png">
+                    </picture>
+                </div>
+
+            </div>
+
+
+
+
         </div>
 
-        <div>
-            <p>info.Studentbo@gmail.com</p>
-            <p>STUDENTBO</p>
-            <p>Farsta, Stockholm</p>
-            
-        </div>
 
-    </footer>
+        <footer class="bottom-section">
 
-</div>
+            <div>
+                <a href="foretagsInformation.html" class="link">Om STUDENTBO</a>
+                <p>Telefonnummer: 0765683260</p>
+            </div>
 
-<script src="../Javascript/foretaget.js"></script>
+            <div>
+                <p>Nå oss på dessa kanaler</p>
+                <a href="#" class="link">Instagram</a>
+                <a href="#" class="link">Facebook</a>
+                <a href="#" class="link">LinkedIn</a>
+            </div>
+
+            <div>
+                <p>info.Studentbo@gmail.com</p>
+                <p>STUDENTBO</p>
+                <p>Farsta, Stockholm</p>
+
+            </div>
+
+        </footer>
+
+
+        <!-- Load d3.js -->
+        <script>
+            // set the dimensions and margins of the graph
+            var margin = {
+                    top: 10,
+                    right: 30,
+                    bottom: 30,
+                    left: 60
+                },
+                width = 460 - margin.left - margin.right,
+                height = 400 - margin.top - margin.bottom;
+
+            // append the svg object to the body of the page
+            var svg = d3.select("#my_dataviz")
+                .append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
+
+            //Read the data
+            d3.csv("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/3_TwoNumOrdered_comma.csv",
+
+                // When reading the csv, I must format variables:
+                function(d) {
+                    return {
+                        date: d3.timeParse("%Y-%m-%d")(d.date),
+                        value: d.value
+                    }
+                },
+
+                // Now I can use this dataset:
+                function(data) {
+
+                    // Add X axis --> it is a date format
+                    var x = d3.scaleTime()
+                        .domain(d3.extent(data, function(d) {
+                            return d.date;
+                        }))
+                        .range([0, width]);
+                    svg.append("g")
+                        .attr("transform", "translate(0," + height + ")")
+                        .call(d3.axisBottom(x));
+
+                    // Add Y axis
+                    var y = d3.scaleLinear()
+                        .domain([0, d3.max(data, function(d) {
+                            return +d.value;
+                        })])
+                        .range([height, 0]);
+                    svg.append("g")
+                        .call(d3.axisLeft(y));
+
+                    // Add the line
+                    svg.append("path")
+                        .datum(data)
+                        .attr("fill", "none")
+                        .attr("stroke", "red")
+                        .attr("stroke-width", 1.5)
+                        .attr("d", d3.line()
+                            .x(function(d) {
+                                return x(d.date)
+                            })
+                            .y(function(d) {
+                                return y(d.value)
+                            })
+                        )
+
+                })
+        </script>
+
+        <!--Egen JS-->
+        <script src="../Javascript/foretaget.js"></script>
 </body>
 
 </html>

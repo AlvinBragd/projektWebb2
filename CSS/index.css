@@ -167,20 +167,20 @@ footer {
     left: 5px;
   }
   
-  @media(min-width:769px) {
+  @media(min-width:875px) {
     .container{
         padding: 0;
     }
     
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1260px) {
     .link, .housebutton, .button-54 {
         font-size: 8px;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 874px){
     
     body{
         margin: 0 auto; 
@@ -199,4 +199,13 @@ footer {
     
    
     
+}
+
+@media (max-width:874px) {
+    .advertisement{
+        background-image: url(..//bilder/stadenliten.jpg);
+        color: white;
+    }
+
+
 }

@@ -28,6 +28,7 @@ gymButton.addEventListener("click", function(){
     gymPopup.style.top="25%"
     gymPopup.style.bottom="25%"
     body.style.backgroundColor ="rgba(0,0,0,0.5)"
+    popupFoundation.style.display="block";
 
 })
 
@@ -42,6 +43,7 @@ bikeButton.addEventListener("click", function(){
     bikePopup.style.top="25%"
     bikePopup.style.bottom="25%"
     body.style.backgroundColor ="rgba(0,0,0,0.5)"
+    popupFoundation.style.display="block";
 })
 
 washButton.addEventListener("click", function(){
@@ -55,6 +57,7 @@ washButton.addEventListener("click", function(){
     washPopup.style.top="25%"
     washPopup.style.bottom="25%"
     body.style.backgroundColor ="rgba(0,0,0,0.5)"
+    popupFoundation.style.display="block";
 })
 
 for(let i = 0; i < 3; i++){
@@ -72,6 +75,7 @@ for(let i = 0; i < 3; i++){
         washPopup.style.top=""
         washPopup.style.left=""
         body.style.backgroundColor ="rgba(255,255,255,1)"
+        popupFoundation.style.display="none";
     })
 }
 

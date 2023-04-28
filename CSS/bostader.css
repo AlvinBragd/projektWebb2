@@ -152,6 +152,10 @@ footer {
         align-items: center;
     }
     
+
+    .house picture{
+        width: 150%;
+    }
     
     .filters, .availableHouses{
         font-size: 75%;

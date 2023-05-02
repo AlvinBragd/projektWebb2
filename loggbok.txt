@@ -27,3 +27,6 @@ Börjat koda på popups när man trycker på knappar. Knapparnas CSS är importe
 
 2023-04-28
 Idag har jag jobbat med sista sidan, exempelvis importrat en graf från D3.js
+
+2023-05-02
+Idag har jag gjort klart webbsidorna

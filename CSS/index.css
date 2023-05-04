@@ -2,6 +2,7 @@ body {
     
     padding: 0;
     background-color: #F0E9D2;
+    margin: 0;
 
 }
 
@@ -10,9 +11,11 @@ body {
     text-decoration: none;
 }
 
-div{
+div:not(.container, .popup){
     padding: 1em;
 }
+
+
 .container {
     display: grid;
     grid-template-areas: 'header header' 'info info' 'benefits benefits' 'houses houses' 'footer footer';
@@ -21,6 +24,7 @@ div{
     width: 80vw;
     margin: 0 auto;
 }
+
 
 .container > *{
     box-sizing: border-box;
@@ -105,6 +109,10 @@ div{
     z-index: 2;
 }
 
+.popup{
+    color: #F0E9D2;
+}
+
 .popup h2,.popup p{
     padding: 5px;
 }
@@ -186,12 +194,22 @@ footer {
     
     .container{
         width: 100vw;
+        max-width:100%;  
     }
 
     .houseCards {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
     }
 
     
